@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
   const handleDownloadCV = () => {
     // Create a link element
     const link = document.createElement('a');
-    link.href = 'https://example.com/path-to-your-cv.pdf'; // Replace with your CV URL
+    link.href = 'https://aquamarine-nickie-87.tiiny.site'; // Replace with your CV URL
     link.download = 'nadeem-cv.pdf';
     document.body.appendChild(link);
     link.click();
