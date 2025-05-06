@@ -18,7 +18,7 @@ const About: React.FC = () => {
           {/* Left side - Image */}
           <div className="w-full lg:w-1/3 hidden md:block">
             <img 
-              src="src\images\Nadeem-removebg-preview.png" 
+              src="\images\Nadeem-removebg-preview.png" 
               alt="About Nadeem" 
               className="rounded-lg shadow-lg w-full h-auto max-w-md mx-auto"
             />

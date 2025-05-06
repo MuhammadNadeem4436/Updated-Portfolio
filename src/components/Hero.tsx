@@ -66,7 +66,7 @@ const Hero: React.FC = () => {
           <div className="w-full md:w-1/2 relative hidden md:block">
             <div className="relative max-w-md mx-auto">
               <img 
-                src="src\images\Nadeem-removebg-preview.png" 
+                src="\images\Nadeem-removebg-preview.png" 
                 alt="Nadeem" 
                 className="w-80 h-80 object-cover rounded-full mx-auto border-4 border-white shadow-xl"
               />
