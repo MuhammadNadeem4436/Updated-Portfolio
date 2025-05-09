@@ -123,17 +123,17 @@ const About: React.FC = () => {
                     <div className="space-y-6">
                       <div className="relative pl-6 border-l-2 border-blue-200 pb-6">
                         <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-[9px] top-0"></div>
-                        <h4 className="font-semibold">Senior Frontend Developer</h4>
-                        <p className="text-gray-600 text-sm">TechCorp • 2021 - Present</p>
+                        <h4 className="font-semibold">Frontend Developer</h4>
+                        <p className="text-gray-600 text-sm">CoderCave • 2024 - Virtual InternShip</p>
                         <p className="text-gray-500 mt-2">Leading frontend development for enterprise applications.</p>
                       </div>
                       
-                      <div className="relative pl-6 border-l-2 border-blue-200">
+                      {/* <div className="relative pl-6 border-l-2 border-blue-200">
                         <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-[9px] top-0"></div>
                         <h4 className="font-semibold">Web Developer</h4>
                         <p className="text-gray-600 text-sm">Digital Agency • 2019 - 2021</p>
                         <p className="text-gray-500 mt-2">Developed responsive websites for various clients.</p>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                   
@@ -155,7 +155,7 @@ const About: React.FC = () => {
                       <div className="relative pl-6 border-l-2 border-blue-200">
                         <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-[9px] top-0"></div>
                         <h4 className="font-semibold">FSC Pre-Engineering</h4>
-                        <p className="text-gray-600 text-sm">Government Collage Township • 2013 - 2017</p>
+                        <p className="text-gray-600 text-sm">Government Collage Township • 2018 - 2020</p>
                         <p className="text-gray-500 mt-2">Foundation in Engineering</p>
                       </div>
                     </div>
