@@ -71,7 +71,7 @@ const ProjectsPage: React.FC = () => {
 
         {/* Category Filter */}
         <div className="flex justify-center mb-12 bg-gray-100 p-2 rounded-full max-w-2xl mx-auto">
-          {['all', 'react', 'node', 'javascript'].map((category) => (
+          {['all', 'react', 'node', 'javascript', 'Lovable', "Bolt.new"].map((category) => (
             <button
               key={category}
               onClick={() => setActiveCategory(category)}
