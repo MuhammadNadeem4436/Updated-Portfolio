@@ -26,8 +26,7 @@ const Hero: React.FC = () => {
               Transforming Ideas Into <span className="text-blue-600">Digital Reality</span>
             </h1>
             <p className="text-gray-600 mb-8 max-w-lg mx-auto md:mx-0">
-              Passionate developer building beautiful, functional, and user-friendly websites 
-              and applications with modern technologies.
+              Hi, I’m Nadeem — a Full Stack Developer and AI Software Developer. I build modern, high-quality web applications using Lovable, Supabase, Bolt.new, React, Node.js, and Tailwind CSS. I help businesses and startups turn ideas into fast, scalable, and secure digital products.
             </p>
             
             {/* Buttons */}
