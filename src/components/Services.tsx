@@ -28,11 +28,11 @@ const Services: React.FC = () => {
       title: 'Web Development',
       description: 'Creating modern, responsive websites with the latest technologies and best practices.'
     },
-    // {
-    //   icon: <Smartphone size={28} />,
-    //   title: 'Mobile Development',
-    //   description: 'Building cross-platform mobile applications that work on iOS and Android devices.'
-    // },
+    {
+      icon: <Smartphone size={28} />,
+      title: 'Full-Stack Vibe coding',
+      description: 'Crafting professional and beautiful user interfaces with Lovable, Bolt.new and Supabase'
+    },
     {
       icon: <Code size={28} />,
       title: 'Frontend Development',
