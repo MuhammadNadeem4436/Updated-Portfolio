@@ -31,21 +31,29 @@ const Navbar: React.FC = () => {
         </Link>
         
         <div className="hidden md:flex items-center space-x-8">
-          <Link 
-            to="/" 
-            className={`font-medium hover:text-blue-400 transition-colors ${
-              scrolled ? 'text-white' : 'text-gray-800'
-            }`}
-          >
-            Home
-          </Link>
-          <Link 
-            to="/projects" 
+          <Link
+            to="/projects"
             className={`font-medium hover:text-blue-400 transition-colors ${
               scrolled ? 'text-white' : 'text-gray-800'
             }`}
           >
             My Projects
+          </Link>
+          <Link
+            to="/fiverr-profile"
+            className={`font-medium hover:text-blue-400 transition-colors ${
+              scrolled ? 'text-white' : 'text-gray-800'
+            }`}
+          >
+            Fiverr Profile
+          </Link>
+          <Link
+            to="/upwork-profile"
+            className={`font-medium hover:text-blue-400 transition-colors ${
+              scrolled ? 'text-white' : 'text-gray-800'
+            }`}
+          >
+            Upwork Profile
           </Link>
         </div>
         

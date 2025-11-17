@@ -4,6 +4,8 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import ProjectsPage from './pages/ProjectsPage';
 import ContactPage from './pages/ContactPage';
+import FiverrProfilePage from './pages/FiverrProfilePage';
+import UpworkProfilePage from './pages/UpworkProfilePage';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
 
@@ -16,6 +18,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/fiverr-profile" element={<FiverrProfilePage />} />
+          <Route path="/upwork-profile" element={<UpworkProfilePage />} />
         </Routes>
         <Footer />
         <WhatsAppButton />
