@@ -49,10 +49,10 @@ const Hero: React.FC = () => {
             
             {/* Social Media */}
             <div className="flex space-x-4 justify-center md:justify-start">
-              <a href="https://github.com/MuhammadNadeem4436" className="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center hover:bg-blue-600 hover:text-white transition-colors">
+              <a href="https://github.com/MuhammadNadeem4436" className="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center hover:bg-blue-600 hover:text-white transition-colors _target">
                 <Github size={20} />
               </a>
-              <a href="https://www.linkedin.com/in/muhammad-nadeem-156129273/" className="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center hover:bg-blue-600 hover:text-white transition-colors">
+              <a href="https://www.linkedin.com/in/muhammad-nadeem-156129273/" className="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center hover:bg-blue-600 hover:text-white transition-colors _target">
                 <Linkedin size={20} />
               </a>
               <a href="https://www.fiverr.com/your-profile" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center hover:bg-blue-600 hover:text-white transition-colors">
