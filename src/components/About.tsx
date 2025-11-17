@@ -128,12 +128,12 @@ const About: React.FC = () => {
                         <p className="text-gray-500 mt-2">Leading frontend development for enterprise applications.</p>
                       </div>
                       
-                      {/* <div className="relative pl-6 border-l-2 border-blue-200">
+                      <div className="relative pl-6 border-l-2 border-blue-200">
                         <div className="absolute w-4 h-4 bg-blue-600 rounded-full -left-[9px] top-0"></div>
-                        <h4 className="font-semibold">Web Developer</h4>
-                        <p className="text-gray-600 text-sm">Digital Agency • 2019 - 2021</p>
-                        <p className="text-gray-500 mt-2">Developed responsive websites for various clients.</p>
-                      </div> */}
+                        <h4 className="font-semibold">Full-Stack Developer (Vibe Coding)</h4>
+                        <p className="text-gray-600 text-sm">Fiverr 2025 to Present</p>
+                        <p className="text-gray-500 mt-2">Developed professional websites for various clients.</p>
+                      </div>
                     </div>
                   </div>
                   
@@ -166,7 +166,7 @@ const About: React.FC = () => {
               {/* Skills Content */}
               {activeTab === 'skills' && (
                 <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-                  {['JavaScript', 'React', 'Node.js', 'TypeScript', 'HTML/CSS', 'MongoDB', 'Express', 'TailwindCSS', 'Bootstrap 5', 'Prompt Engineering', 'AI Development'].map((skill, index) => (
+                  {['JavaScript', 'React', 'Node.js', 'TypeScript', 'HTML/CSS', 'MongoDB', 'Express', 'TailwindCSS', 'Bootstrap 5', 'Prompt Engineering', 'AI Development', 'Lovable', 'Bolt.new', 'Supabase',].map((skill, index) => (
                     <div key={index} className="bg-gray-50 p-4 rounded-lg flex items-center">
                       <Code size={18} className="mr-2 text-blue-600" />
                       <span>{skill}</span>
