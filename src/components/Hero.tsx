@@ -49,13 +49,13 @@ const Hero: React.FC = () => {
             
             {/* Social Media */}
             <div className="flex space-x-4 justify-center md:justify-start">
-              <a href="https://github.com/MuhammadNadeem4436" className="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center hover:bg-blue-600 hover:text-white transition-colors _target">
+              <a href="https://github.com/MuhammadNadeem4436" target = "_blank" className="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center hover:bg-blue-600 hover:text-white transition-colors">
                 <Github size={20} />
               </a>
-              <a href="https://www.linkedin.com/in/muhammad-nadeem-156129273/" className="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center hover:bg-blue-600 hover:text-white transition-colors _target">
+              <a href="https://www.linkedin.com/in/muhammad-nadeem-156129273/" target = "_blank" className="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center hover:bg-blue-600 hover:text-white transition-colors">
                 <Linkedin size={20} />
               </a>
-              <a href="https://www.fiverr.com/your-profile" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center hover:bg-blue-600 hover:text-white transition-colors">
+              <a href="https://www.fiverr.com/nadeemakramm?public_mode=true" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-gray-200 flex items-center justify-center hover:bg-blue-600 hover:text-white transition-colors">
                 <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M8 6a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h2v-2H9V7a1 1 0 0 0-1-1zm4 0a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2v-2h-1V7a1 1 0 0 0-1-1zm6 0a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h2v-2h-1V7a1 1 0 0 0-1-1zm-6-4a2 2 0 1 0 0 4 2 2 0 0 0 0-4z"/>
                 </svg>
