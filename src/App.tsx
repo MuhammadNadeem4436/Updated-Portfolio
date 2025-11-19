@@ -6,7 +6,6 @@ import ProjectsPage from './pages/ProjectsPage';
 import ContactPage from './pages/ContactPage';
 import FiverrProfilePage from './pages/FiverrProfilePage';
 import UpworkProfilePage from './pages/UpworkProfilePage';
-import AnimatedPortfolio from './pages/AnimatedPortfolio';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
 
@@ -21,7 +20,6 @@ function App() {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/fiverr-profile" element={<FiverrProfilePage />} />
           <Route path="/upwork-profile" element={<UpworkProfilePage />} />
-          <Route path="/animated-portfolio" element={<AnimatedPortfolio />} />
         </Routes>
         <Footer />
         <WhatsAppButton />

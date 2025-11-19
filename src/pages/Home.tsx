@@ -1,4 +1,5 @@
 import React from 'react';
+import StarBackground from '../components/StarBackground';
 import Hero from '../components/Hero';
 import About from '../components/About';
 import Services from '../components/Services';
@@ -9,6 +10,7 @@ import CTA from '../components/CTA';
 const Home: React.FC = () => {
   return (
     <>
+      <StarBackground />
       <Hero />
       <About />
       <Services />
