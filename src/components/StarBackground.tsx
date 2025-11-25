@@ -40,7 +40,7 @@ const StarBackground: React.FC = () => {
 
     const createStars = () => {
       starsRef.current = [];
-      for (let i = 0; i < 800; i++) {
+      for (let i = 0; i < 1500; i++) {
         const theta = Math.random() * Math.PI * 2;
         const phi = Math.random() * Math.PI;
         const radius = Math.random() * 150 + 50;
@@ -58,7 +58,7 @@ const StarBackground: React.FC = () => {
           vz: 0,
           size: Math.random() * 2 + 0.5,
           opacity: Math.random() * 0.5 + 0.5,
-          twinklSpeed: Math.random() * 0.02 + 0.01,
+          twinklSpeed: Math.random() * 0.03 + 0.015,
           twinklPhase: Math.random() * Math.PI * 2,
           originalX: x,
           originalY: y,
@@ -91,7 +91,7 @@ const StarBackground: React.FC = () => {
       ctx.fillStyle = gradient;
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-      rotationRef.current += 0.0002;
+      rotationRef.current += 0.0005;
 
       const centerX = canvas.width / 2;
       const centerY = canvas.height / 2;
@@ -133,9 +133,9 @@ const StarBackground: React.FC = () => {
         rotatedY *= (1 + spreadForce / 400);
         rotatedZ *= (1 + spreadForce / 400);
 
-        star.x += (rotatedX - star.x) * 0.1;
-        star.y += (rotatedY - star.y) * 0.1;
-        star.z += (rotatedZ - star.z) * 0.1;
+        star.x += (rotatedX - star.x) * 0.15;
+        star.y += (rotatedY - star.y) * 0.15;
+        star.z += (rotatedZ - star.z) * 0.15;
 
         const perspective = 1 + star.z / 400;
         const x2d = centerX + star.x * perspective;
@@ -152,12 +152,6 @@ const StarBackground: React.FC = () => {
         ctx.beginPath();
         ctx.arc(x2d, y2d, finalSize, 0, Math.PI * 2);
         ctx.fill();
-
-        if (finalSize > 1) {
-          ctx.strokeStyle = `rgba(147, 197, 253, ${finalOpacity * 0.5})`;
-          ctx.lineWidth = 0.5;
-          ctx.stroke();
-        }
       });
 
       requestAnimationFrame(animate);
@@ -179,7 +173,7 @@ const StarBackground: React.FC = () => {
   return (
     <canvas
       ref={canvasRef}
-      className="fixed top-0 left-0 w-full h-full pointer-events-none"
+      className="fixed top-0 left-0 w-full h-full pointer-events-none -z-10"
       style={{ background: 'linear-to-b from-gray-50 to-gray-100' }}
     />
   );
