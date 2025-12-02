@@ -4,7 +4,7 @@ import { ArrowRight } from 'lucide-react';
 
 const CTA: React.FC = () => {
   return (
-    <section className="py-20 bg-gradient-to-r from-blue-600 to-blue-800 text-white">
+    <section className="py-20 bg-gradient-to-r from-blue-600 to-blue-800 text-white relative z-0">
       <div className="container mx-auto px-4 text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-6 max-w-3xl mx-auto leading-tight">
           Ready to Transform Your Ideas into Reality? Let's Work Together!

@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
   };
 
   return (
-    <section id="home" className="pt-28 pb-20 bg-gradient-to-br from-gray-50 to-gray-100">
+    <section id="home" className="pt-28 pb-20 relative z-0">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-between">
           {/* Left Side - Text Content */}

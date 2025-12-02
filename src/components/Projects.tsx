@@ -53,7 +53,7 @@ const Projects: React.FC = () => {
   }, [projects.length]);
 
   return (
-    <section id="projects" className="py-20 bg-white">
+    <section id="projects" className="py-20 relative z-0">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center mb-12">
           <div className="mb-6 md:mb-0">
