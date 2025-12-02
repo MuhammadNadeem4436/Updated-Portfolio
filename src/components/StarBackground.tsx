@@ -81,17 +81,9 @@ const StarBackground: React.FC = () => {
     };
 
     const animate = () => {
-      ctx.fillStyle = 'rgba(249, 250, 251, 0.02)';
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-      const gradient = ctx.createLinearGradient(0, 0, 0, canvas.height);
-      gradient.addColorStop(0, 'rgba(249, 250, 251, 0)');
-      gradient.addColorStop(0.5, 'rgba(243, 244, 246, 0)');
-      gradient.addColorStop(1, 'rgba(249, 250, 251, 0)');
-      ctx.fillStyle = gradient;
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-      rotationRef.current += 0.0005;
+      rotationRef.current += 0.001;
 
       const centerX = canvas.width / 2;
       const centerY = canvas.height / 2;
@@ -133,9 +125,9 @@ const StarBackground: React.FC = () => {
         rotatedY *= (1 + spreadForce / 400);
         rotatedZ *= (1 + spreadForce / 400);
 
-        star.x += (rotatedX - star.x) * 0.15;
-        star.y += (rotatedY - star.y) * 0.15;
-        star.z += (rotatedZ - star.z) * 0.15;
+        star.x += (rotatedX - star.x) * 0.25;
+        star.y += (rotatedY - star.y) * 0.25;
+        star.z += (rotatedZ - star.z) * 0.25;
 
         const perspective = 1 + star.z / 400;
         const x2d = centerX + star.x * perspective;
