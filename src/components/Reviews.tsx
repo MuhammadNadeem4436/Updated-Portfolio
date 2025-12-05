@@ -39,6 +39,33 @@ const Reviews: React.FC = () => {
       avatar: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       rating: 4,
       content: 'Nadeem helped us transform our outdated system into a modern, efficient platform. His technical knowledge and problem-solving skills were invaluable.'
+    },
+    {
+      id: 4,
+      name: 'D. Griffin',
+      position: 'Client',
+      company: 'Fiverr',
+      avatar: 'https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      rating: 4,
+      content: 'My freelancer was very polite and knowledgeable. I appreciated his follow through and attention to detail. This was my first time using Fiverr, and I\'m glad I got the level of work completed for our project. Thank you.'
+    },
+    {
+      id: 5,
+      name: 'M. Best',
+      position: 'Client',
+      company: 'Fiverr',
+      avatar: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      rating: 5,
+      content: 'Nadeem has done an excellent job! He really understands the project and took the time to gather all information needed. He was able to see features that I didn\'t realize I needed. I intend to work with Nadeem on future software development.'
+    },
+    {
+      id: 6,
+      name: 'Kayla Sping',
+      position: 'Client',
+      company: 'Fiverr',
+      avatar: 'https://images.pexels.com/photos/1868637/pexels-photo-1868637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+      rating: 5,
+      content: 'Everything was very easy to get completed. The responsiveness and level of work was great. Nadeem delivers high-quality results with excellent communication.'
     }
   ];
 
@@ -52,9 +79,9 @@ const Reviews: React.FC = () => {
           </p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {reviews.map(review => (
-            <div key={review.id} className="bg-white p-6 rounded-lg shadow-md border border-gray-100">
+            <div key={review.id} className="bg-white p-6 rounded-lg shadow-md border border-gray-100 hover:shadow-lg transition-shadow">
               <div className="mb-4 flex">
                 {[...Array(5)].map((_, i) => (
                   <Star 
